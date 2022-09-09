@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="getting_started" />
+		<Option pch_mode="2" />
+		<Option compiler="bcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/getting_started" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="bcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-w" />
+			<Add directory="." />
+		</Compiler>
+		<Linker>
+			<Add library="cw32mt.lib" />
+			<Add library="import32.lib" />
+			<Add library="graphapp_3_60_bcc.lib" />
+			<Add library="iowkit_bcc.lib" />
+		</Linker>
+		<Unit filename="PKWWaschen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PKWWaschen.h" />
+		<Unit filename="app_3_60_bcc.h" />
+		<Unit filename="getting_started_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphapp_3_60_bcc.h" />
+		<Unit filename="graphapp_3_60_bcc.lib" />
+		<Unit filename="gui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gui.h" />
+		<Unit filename="iow56_simple.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="iow56_simple.h" />
+		<Unit filename="iow56_simple_codecontrol.h" />
+		<Unit filename="iow_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="iow_thread.h" />
+		<Unit filename="iowkit.dll" />
+		<Unit filename="iowkit.h" />
+		<Unit filename="iowkit_bcc.lib" />
+		<Unit filename="ptl_codecontrol.h" />
+		<Unit filename="ptl_lib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ptl_lib.h" />
+		<Unit filename="safety_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="safety_thread.h" />
+		<Unit filename="shared_RAM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shared_RAM.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
